@@ -12,7 +12,6 @@ Source:		    ftp://ftp.logilab.org/pub/xmldiff/%{module}-%{version}.tar.bz2
 License:	    GPL
 Group:		    File tools
 BuildRequires:	python-devel
-BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 XMLdiff is a python tool that figures out the differences between two similar
