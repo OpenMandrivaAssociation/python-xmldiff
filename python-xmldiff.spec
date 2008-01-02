@@ -13,6 +13,7 @@ Patch:          %{module}-0.6.8-fix-build.patch
 License:	    GPL
 Group:		    File tools
 BuildRequires:	python-devel
+BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 XMLdiff is a python tool that figures out the differences between two similar
