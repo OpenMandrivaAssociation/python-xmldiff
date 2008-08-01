@@ -1,7 +1,7 @@
 %define module	xmldiff
 %define name	python-%{module}
 %define version 0.6.8
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:		    %{name}
 Version:	    %{version}
