@@ -1,17 +1,14 @@
 %define module	xmldiff
-%define name	python-%{module}
-%define version 0.6.10
-%define release %mkrel 1
 
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
 Summary:	Python classes to diff XML files
-URL:		http://www.logilab.org/projects/xmldiff
-Source0:	ftp://ftp.logilab.org/pub/xmldiff/%{module}-%{version}.tar.gz
-License:	GPL
+Name:		python-%{module}
+Version:	0.6.10
+Release:	1
+License:	GPLv2
 Group:		File tools
-BuildRequires:	python-devel
+Url:		http://www.logilab.org/projects/xmldiff
+Source0:	ftp://ftp.logilab.org/pub/xmldiff/%{module}-%{version}.tar.gz
+BuildRequires:	pkgconfig(python)
 
 %description
 XMLdiff is a python tool that figures out the differences between two similar
@@ -20,7 +17,7 @@ developed for the Narval project and could also be used as a library or as a
 command line tool. It can work either with XML files or DOM trees
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -qn %{module}-%{version}
 
 %build
 export CFLAGS="%{optflags}"
@@ -37,3 +34,4 @@ chmod 755 %{buildroot}%{_bindir}/*
 %{_datadir}/sgml/stylesheet/%{module}
 %{py_platsitedir}/%{module}
 %{py_platsitedir}/%{module}-*.egg-info
+
