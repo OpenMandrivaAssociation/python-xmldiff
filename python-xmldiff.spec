@@ -3,7 +3,7 @@
 Summary:	Python classes to diff XML files
 Name:		python2-%{module}
 Version:	0.6.10
-Release:	7
+Release:	8
 License:	GPLv2
 Group:		File tools
 Url:		http://www.logilab.org/projects/xmldiff
