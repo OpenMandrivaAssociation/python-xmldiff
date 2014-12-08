@@ -8,7 +8,7 @@ License:	GPLv2
 Group:		File tools
 Url:		http://www.logilab.org/projects/xmldiff
 Source0:	ftp://ftp.logilab.org/pub/xmldiff/%{module}-%{version}.tar.gz
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python2)
 
 %description
 XMLdiff is a python tool that figures out the differences between two similar
