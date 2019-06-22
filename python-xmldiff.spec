@@ -3,11 +3,11 @@
 %define _exclude_files_from_autoprov %{python_sitearch}/.*\\.so\\|%{python3_sitearch}/.*\\.so
 
 Name:          python-%{module}
-Version:       0.6.10
+Version:	2.3
 Release:       1
 Summary:       Python classes to diff XML files
 URL:           http://www.logilab.org/projects/xmldiff
-Source0:        http://download.logilab.org/pub/xmldiff/%{module}-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/e6/1c/3dd86bec66fad3a21ac9d093610f83f6e20ad1d835ebf4079af53e65ed6b/xmldiff-2.3.tar.gz
 License:       GPL
 Group:         File tools
 BuildRequires:	pkgconfig(python)
