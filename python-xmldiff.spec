@@ -5,7 +5,7 @@
 
 Name:		python-%{module}
 Version:	2.4
-Release:	3
+Release:	4
 Summary:	Python classes to diff XML files
 URL:		http://www.logilab.org/projects/xmldiff
 Source0:	https://files.pythonhosted.org/packages/76/36/a3e41bf7c01f1110d7b5589ca74d2927d3736a5b43ee63053faf3483b991/xmldiff-2.4.tar.gz
