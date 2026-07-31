@@ -1,7 +1,7 @@
 %define module xmldiff
 
 Name:		python-%{module}
-Version:	2.7.0
+Version:	3.0
 Release:	1
 Summary:	Python classes to diff XML files
 License:	GPL
@@ -24,7 +24,7 @@ developed for the Narval project and could also be used as a library or as a
 command line tool. It can work either with XML files or DOM trees
 
 %prep
-%autosetup -n %{module}-%{version} -p1
+%autosetup -n xmldiff-3.0 -p1
 # Remove bundled egg-info
 rm -rf %{module}.egg-info
 
