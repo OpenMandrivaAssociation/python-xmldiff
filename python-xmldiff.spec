@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	3.0
-Release:	1
+Release:	2
 Summary:	Python classes to diff XML files
 License:	GPL
 Group:		Development/Python
@@ -12,7 +12,7 @@ BuildSystem:	python
 BuildArch:		noarch
 
 BuildRequires:	pkgconfig
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(lxml)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
